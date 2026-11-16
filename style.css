@@ -806,3 +806,36 @@ a:focus-visible {
   font-weight: 650;
   letter-spacing: -0.012em;
 }
+
+/* Social media icons */
+.quick-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.quick-links a {
+  color: var(--muted);
+  font-size: 24px;
+  line-height: 1;
+  transition: color 0.2s ease,
+              transform 0.2s ease;
+}
+
+.quick-links a:hover {
+  color: var(--accent);
+  transform: translateY(-3px);
+}
+
+/* Show contact icons on mobile */
+@media (max-width: 850px) {
+  .sidebar-bottom {
+    display: block;
+    padding-top: 24px;
+  }
+
+  .sidebar-bottom-row {
+    display: none;
+  }
+}
