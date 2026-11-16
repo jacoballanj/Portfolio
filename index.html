@@ -113,7 +113,7 @@
 
           <div class="sidebar-bottom-row">
             <span class="sidebar-caption" data-i18n="basedIn">Based in Austria · Open to opportunities</span>
-            <div class="sidebar-actions">
+            <!--<div class="sidebar-actions">
               <div aria-label="Choose language" class="lang-control" role="group">
                 <button aria-pressed="true" data-lang="en" type="button">EN</button>
                 <button aria-pressed="false" data-lang="de" type="button">DE</button>
@@ -126,12 +126,26 @@
               >
                 <span aria-hidden="true" data-theme-icon="">☀</span>
               </button>
-            </div>
+            </div>-->
           </div>
         </div>
       </aside>
 
       <main class="content" id="main">
+        <div class="desktop-controls">
+        
+          <!-- Language selector -->
+          <div class="lang-control" role="group" aria-label="Choose language">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="de">DE</button>
+          </div>
+        
+          <!-- Theme toggle -->
+          <button type="button" class="theme-toggle icon-button" data-theme-toggle aria-label="Toggle light and dark mode">
+            <span data-theme-icon aria-hidden="true">☀</span>
+          </button>
+        
+        </div>
         <section aria-labelledby="about-title" class="content-section first-section" id="about">
           <div class="section-heading">
             <span class="section-number">01 /</span>
@@ -153,13 +167,6 @@
             and applied AI — particularly roles where understanding a problem matters as much as building
             the solution.
           </p>
-
-          <div class="about-links">
-            <a class="text-link" href="#projects">
-              <span data-i18n="exploreProjects">Explore my projects</span>
-              <span aria-hidden="true"> ↗</span>
-            </a>
-          </div>
         </section>
 
         <section aria-labelledby="experience-title" class="content-section" id="experience">

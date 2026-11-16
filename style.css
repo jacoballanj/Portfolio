@@ -839,3 +839,35 @@ a:focus-visible {
     display: none;
   }
 }
+/* Position controls in right column */
+.content {
+  position: relative;
+}
+
+.desktop-controls {
+  position: sticky;
+  top: 8px;
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  width: max-content;
+  margin-left: auto;
+
+  /* Move controls upward */
+  margin-top: -60px;
+  margin-bottom: 60px;
+
+  padding: 8px;
+  background: var(--bg);
+  border-radius: 50px;
+}
+
+/* On mobile, uses the existing header controls */
+@media (max-width: 850px) {
+  .desktop-controls {
+    display: none;
+  }
+}
