@@ -1,7 +1,3 @@
-/*
-  Customize these values before publishing. Blank links are intentionally hidden.
-  Never put private credentials, API keys, or passwords in browser JavaScript.
-*/
 const CONTACT = {
   email: "jacoballan@live.com",
   linkedin: "https://www.linkedin.com/in/jacoballanj/",
@@ -11,7 +7,6 @@ const CONTACT = {
 const translations = {
   en: {
     skip: "Skip to content",
-    eyebrow: "BUSINESS · TECHNOLOGY · PEOPLE",
     role: "Business Informatics & Software Development",
     intro: "Connecting analytical thinking, business understanding, and practical software development.",
     navAbout: "About",
@@ -19,6 +14,7 @@ const translations = {
     navEducation: "Education",
     navProjects: "Projects",
     navContact: "Contact",
+    navCV: "Download CV",
     basedIn: "Based in Austria · Open to opportunities",
     sectionAbout: "About",
     aboutOne:
@@ -84,7 +80,6 @@ const translations = {
   },
   de: {
     skip: "Zum Inhalt springen",
-    eyebrow: "WIRTSCHAFT · TECHNOLOGIE · MENSCHEN",
     role: "Wirtschaftsinformatik & Softwareentwicklung",
     intro: "Ich verbinde analytisches Denken, wirtschaftliches Verständnis und praktische Softwareentwicklung.",
     navAbout: "Über mich",
@@ -92,6 +87,7 @@ const translations = {
     navEducation: "Ausbildung",
     navProjects: "Projekte",
     navContact: "Kontakt",
+    navCV: "Lebenslauf herunterladen",
     basedIn: "In Österreich · Offen für Stellenangebote",
     sectionAbout: "Über mich",
     aboutOne:
@@ -215,6 +211,20 @@ function setLanguage(language) {
     button.setAttribute("aria-pressed", String(button.dataset.lang === currentLang));
   });
 
+  document.querySelectorAll('[data-cv-download]').forEach(link => {
+    const isGerman = currentLang === 'de';
+
+    link.href = isGerman
+      ? 'assets/cv/cv-de.pdf'
+      : 'assets/cv/cv-en.pdf';
+
+    const label = isGerman
+      ? 'Lebenslauf herunterladen'
+      : 'Download CV';
+
+    link.setAttribute('aria-label', label);
+    link.title = label;
+  });
   updateControlLabels();
   renderContact();
   save("ja-portfolio-language", currentLang);

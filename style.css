@@ -780,6 +780,12 @@ a:focus-visible {
   }
 }
 
+@media (max-width: 850px) {
+  .mobile-actions {
+    margin-left: auto;
+  }
+}
+
 /* Project descriptions */
 .work-kicker {
   margin: 0 0 0.4rem !important;
