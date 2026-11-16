@@ -1,4 +1,3 @@
-/* Single-page portfolio — responsive, accessible, no JavaScript frameworks */
 :root {
   color-scheme: dark;
   --bg: #0c1424;
@@ -781,7 +780,7 @@ a:focus-visible {
   }
 }
 
-/* Project descriptions share the same restrained timeline styling as the rest of the page. */
+/* Project descriptions */
 .work-kicker {
   margin: 0 0 0.4rem !important;
   font-family: Inter, system-ui, sans-serif;
@@ -828,7 +827,7 @@ a:focus-visible {
   transform: translateY(-3px);
 }
 
-/* Show contact icons on mobile */
+/* Contact icons on mobile */
 @media (max-width: 850px) {
   .sidebar-bottom {
     display: block;
