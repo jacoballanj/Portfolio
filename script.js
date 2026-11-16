@@ -8,7 +8,7 @@ const translations = {
   en: {
     skip: "Skip to content",
     role: "Business Informatics & Software Development",
-    intro: "Connecting analytical thinking, business understanding, and practical software development.",
+    intro: "Connecting business insight with technology.",
     navAbout: "About",
     navExperience: "Experience",
     navEducation: "Education",
@@ -17,19 +17,13 @@ const translations = {
     navCV: "Download CV",
     basedIn: "Based in Austria · Open to opportunities",
     sectionAbout: "About",
-    aboutOne:
-      "My background sits at the intersection of business and technology. I hold a master’s degree in Management and Informatics and previously worked as a Transaction Risk Investigator at Amazon, where analytical thinking and careful decision-making were central to my work.",
-    aboutTwo:
-      "I’m currently pursuing a master’s degree in Computer Science. Alongside my studies, I’m developing my skills in Python for AI applications and Kotlin for my thesis on environmental sound awareness for deaf and hard-of-hearing people.",
-    aboutThree:
-      "I’m interested in opportunities across business informatics, analysis, software development, and applied AI — particularly roles where understanding a problem matters as much as building the solution.",
-    exploreProjects: "Explore my projects",
+    aboutOne: "I have a master's degree in Management and Informatics, with professional experience in business analysis at Netcomm Suisse and transaction risk investigation at Amazon. My work has involved requirements gathering, risk assessment, and data-driven problem-solving.",
+    aboutTwo: "I'm now expanding my skills in software development and AI through practical projects, with an interest in opportunities that connect business and technology.",
     contactMe: "Get in touch",
     sectionExperience: "Experience",
-    experiencePeriod: "PREVIOUS ROLE",
+    experiencePeriod: "2019 – 2021",
     amazonTitle: "Transaction Risk Investigator",
-    amazonDesc:
-      "Worked on transactional risk investigations, evaluating information and making reasoned decisions in an operational setting. This experience strengthened my analytical approach and understanding of how technology supports business processes.",
+    amazonDesc:"Investigated transaction and fraud risks, identified suspicious patterns, and prepared performance reports to support operational decisions.",
     tagRisk: "Risk investigation",
     tagAnalysis: "Analytical thinking",
     tagOperations: "Operations",
@@ -81,7 +75,7 @@ const translations = {
   de: {
     skip: "Zum Inhalt springen",
     role: "Wirtschaftsinformatik & Softwareentwicklung",
-    intro: "Ich verbinde analytisches Denken, wirtschaftliches Verständnis und praktische Softwareentwicklung.",
+    intro: "An der Schnittstelle von Wirtschaft und Technologie.",
     navAbout: "Über mich",
     navExperience: "Berufserfahrung",
     navEducation: "Ausbildung",
@@ -90,19 +84,15 @@ const translations = {
     navCV: "Lebenslauf herunterladen",
     basedIn: "In Österreich · Offen für Stellenangebote",
     sectionAbout: "Über mich",
-    aboutOne:
-      "Mein Hintergrund verbindet Wirtschaft und Technologie. Ich habe einen Masterabschluss in Management und Informatik und war zuvor bei Amazon als Transaction Risk Investigator tätig. Analytisches Denken und sorgfältige Entscheidungen waren dabei wichtige Bestandteile meiner Arbeit.",
-    aboutTwo:
-      "Derzeit absolviere ich ein Masterstudium in Informatik. Parallel dazu beschäftige ich mich mit Python für KI-Anwendungen und Kotlin für meine Masterarbeit zur Wahrnehmung von Umgebungsgeräuschen durch gehörlose und schwerhörige Menschen.",
-    aboutThree:
-      "Ich interessiere mich für Aufgaben in der Wirtschaftsinformatik, Analyse, Softwareentwicklung und angewandten KI – insbesondere dort, wo Problemverständnis ebenso wichtig ist wie die technische Umsetzung.",
+    aboutOne: "Ich habe einen Masterabschluss in Management und Informatik sowie Berufserfahrung in der Business-Analyse bei Netcomm Suisse und der Untersuchung von Transaktionsrisiken bei Amazon. Zu meinen Aufgaben gehörten die Anforderungserhebung, Risikobewertung und datenbasierte Problemlösung.",
+    aboutTwo: "Derzeit erweitere ich meine Kenntnisse in der Softwareentwicklung und künstlichen Intelligenz durch praktische Projekte. Besonders interessieren mich berufliche Möglichkeiten, die Wirtschaft und Technologie miteinander verbinden.",
     exploreProjects: "Meine Projekte ansehen",
     contactMe: "Kontakt aufnehmen",
     sectionExperience: "Berufserfahrung",
-    experiencePeriod: "FRÜHERE TÄTIGKEIT",
+    experiencePeriod: "2019 – 2021",
     amazonTitle: "Transaction Risk Investigator",
     amazonDesc:
-      "Bearbeitung von Untersuchungen zu Transaktionsrisiken, Bewertung von Informationen und fundierte Entscheidungen im operativen Umfeld. Die Tätigkeit hat meine analytische Herangehensweise und mein Verständnis für technologiegestützte Geschäftsprozesse gestärkt.",
+      "Transaktions- und Betrugsrisiken untersucht, verdächtige Muster identifiziert sowie Leistungsberichte zur Unterstützung operativer Entscheidungen erstellt.",
     tagRisk: "Risikoprüfung",
     tagAnalysis: "Analytisches Denken",
     tagOperations: "Operative Prozesse",
