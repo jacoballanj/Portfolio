@@ -870,6 +870,13 @@ a:focus-visible {
   border-radius: 50px;
 }
 
+.content-section .timeline-body p.university {
+  color: var(--accent);
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem;
+}
+
 /* On mobile, uses the existing header controls */
 @media (max-width: 850px) {
   .desktop-controls {
