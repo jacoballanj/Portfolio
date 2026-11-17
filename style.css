@@ -877,6 +877,22 @@ a:focus-visible {
   margin: 0 0 0.5rem;
 }
 
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.project-link:hover {
+  color: var(--accent);
+}
+
 /* On mobile, uses the existing header controls */
 @media (max-width: 850px) {
   .desktop-controls {

@@ -162,7 +162,9 @@
             <div class="timeline-body">
               <h3>
                 <span data-i18n="amazonTitle">Transaction Risk Investigator</span>
-                <span class="heading-muted">· Amazon, India</span>
+                <span class="heading-muted" data-i18n="amazonCompany">
+                  · Amazon, India
+                </span>
               </h3>
               <p data-i18n="amazonDesc">
                 Investigated high-risk transactions to mitigate fraud, identified emerging suspicious patterns, and generated
@@ -181,7 +183,9 @@
             <div class="timeline-body">
               <h3>
                 <span data-i18n="netcommTitle">Technical Consultant Intern</span>
-                <span class="heading-muted">· Netcomm Suisse, Switzerland</span>
+                <span class="heading-muted" data-i18n="netcommCompany">
+                  · Netcomm Suisse, Switzerland
+                </span>     
               </h3>
               <p data-i18n="netcommDesc">
                 Gathered cross-functional stakeholder requirements, conducted technical and cost-feasibility assessments for an online
@@ -255,64 +259,110 @@
             </div>
           </article>
         </section>
-
+        
+        
         <section aria-labelledby="projects-title" class="content-section" id="projects">
           <div class="section-heading">
             <span class="section-number">04 /</span>
             <h2 data-i18n="sectionProjects" id="projects-title">Projects</h2>
           </div>
-
+        
           <div class="work-list">
-            <article class="work-row" id="hazard-detection">
+        
+            <!-- Feature Miner -->
+            <article class="work-row" id="feature-miner">
               <span class="work-index">01</span>
+        
               <div class="work-body">
-                <p class="work-kicker" data-i18n="researchProject">MASTER'S THESIS / RESEARCH</p>
+                <p class="work-kicker" data-i18n="featureCategory">
+                  SOFTWARE DEVELOPMENT / AI
+                </p>
+        
                 <div class="work-title-line">
-                  <h3 data-i18n="hazardName">Hazard Sound Detection</h3>
-                  <span class="status" data-i18n="inProgress">In progress</span>
+                  <h3 data-i18n="featureName">
+                    Feature Miner – Git Commit Mining &amp; Feature Prediction
+                  </h3>
                 </div>
-                <p data-i18n="hazardLong">
-                  An ongoing thesis exploring real-time detection of environmental sounds that matter for
-                  deaf and hard-of-hearing people. The planned work includes comparing lightweight audio
-                  classifiers and considering how alerts could be delivered in everyday settings.
+        
+                <p data-i18n="featureDesc">
+                  A Python web application that analyzes Git commits and uses
+                  large language models to identify software features, with
+                  an integrated review workflow and REST API integration.
                 </p>
-                <p class="project-disclaimer" data-i18n="hazardCaveat">
-                  Research and implementation are still in progress; the described features are not
-                  presented as a finished app.
-                </p>
-                <div class="tags">
-                  <span data-i18n="tagAI">AI</span>
-                  <span data-i18n="tagAudio">Audio classification</span>
-                  <span data-i18n="kotlinPlanned">Kotlin (planned)</span>
-                  <span data-i18n="tagAccessibility">Accessibility</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="work-row" id="local-ai">
-              <span class="work-index">02</span>
-              <div class="work-body">
-                <p class="work-kicker" data-i18n="learningProject">LEARNING PROJECT</p>
-                <div class="work-title-line">
-                  <h3 data-i18n="localAIName">Local AI Application</h3>
-                  <span class="status" data-i18n="prototype">Prototype</span>
-                </div>
-                <p data-i18n="localAILong">
-                  A hands-on Python project using FastAPI and Ollama to experiment with connecting
-                  application endpoints to a locally running language model. Built to understand API
-                  design and practical AI integration.
-                </p>
+        
                 <div class="tags">
                   <span>Python</span>
                   <span>FastAPI</span>
                   <span>Ollama</span>
+                  <span>GitPython</span>
                   <span>REST APIs</span>
+                  <span>LLMs</span>
+                </div>
+        
+                <a class="project-link" href="https://github.com/jacoballanj/feature_miner" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-github" aria-hidden="true"></i>
+                  <span data-i18n="viewGithub">View on GitHub</span>
+                </a>
+              </div>
+            </article>
+        
+            <!-- Current Master's Thesis -->
+            <article class="work-row" id="hazard-detection">
+              <span class="work-index">02</span>
+        
+              <div class="work-body">
+                <p class="work-kicker" data-i18n="researchProject">
+                  MASTER'S THESIS / RESEARCH
+                </p>
+        
+                <div class="work-title-line">
+                  <h3 data-i18n="hazardName">Hazard Sound Detection</h3>
+                  <span class="status" data-i18n="inProgress">In progress</span>
                 </div>
               </div>
             </article>
+        
+            <!-- Previous Master's Thesis -->
+            <article class="work-row" id="memory-sharing">
+              <span class="work-index">03</span>
+        
+              <div class="work-body">
+                <p class="work-kicker" data-i18n="memoryCategory">
+                  MASTER'S THESIS / 2018
+                </p>
+        
+                <div class="work-title-line">
+                  <h3 data-i18n="memoryName">
+                    Secure Personal Memory Sharing
+                  </h3>
+                </div>
+        
+                <p data-i18n="memoryDesc">
+                  Designed and evaluated a web interface prototype for the
+                  MemShare system as part of the RECALL research project.
+                  Conducted usability studies to identify user needs and
+                  opportunities for system improvements.
+                </p>
+        
+                <div class="tags">
+                  <span data-i18n="tagUserResearch">User Research</span>
+                  <span>UI/UX</span>
+                  <span data-i18n="tagPrototyping">Prototyping</span>
+                  <span data-i18n="tagUsability">Usability Testing</span>
+                  <span>HCI</span>
+                </div>
+        
+                <a class="project-link" href="https://thesis.bul.sbu.usi.ch/theses/1610-1718Jeyaraj/pdf?1533565605"
+                  target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>
+                  <span data-i18n="readThesis">Read Thesis</span>
+                </a>
+              </div>
+            </article>
+        
           </div>
         </section>
-
         <footer class="footer">
           <span data-i18n="footer">Designed and built with HTML, CSS &amp; JavaScript.</span>
           <span>© <span data-year=""></span> Jacob Allan Jeyaraj</span>

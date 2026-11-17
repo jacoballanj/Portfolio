@@ -21,12 +21,14 @@ const translations = {
     sectionExperience: "Experience",
     experiencePeriod: "2019 – 2021",
     amazonTitle: "Transaction Risk Investigator",
+    amazonCompany: "· Amazon, India",
     amazonDesc:"Investigated high-risk transactions to mitigate fraud, identified emerging suspicious patterns, and generated performance reports to drive operational decisions.",
     tagRisk: "Risk Assessment",
     tagAnalysis: "Fraud Investigation",
     tagOperations: "Operations",
     experiencePeriodn: "2016 – 2017",
     netcommTitle: "Technical Consultant Intern",
+    netcommCompany: "· Netcomm Suisse, Switzerland",
     netcommDesc: "Gathered cross-functional stakeholder requirements, conducted technical and cost-feasibility assessments for an online platform, and designed wireframes to drive IT solution selection.",
     netcommTagRequirements: "Requirements Analysis",
     netcommTagFeasibility: "Feasibility Analysis",
@@ -58,31 +60,36 @@ const translations = {
     tagDB: "Database Management",
     tagAlgo: "Data Structures & Algorithms",
     // Projects
+    sectionProjects: "Projects",
+
+    // Feature Miner
+    featureCategory: "Software Development / AI",
+    featureName: "Feature Miner – Git Commit Mining & Feature Prediction",
+    featureDesc: "A Python web application that analyzes Git commits and uses large language models to identify software features, with an integrated review workflow and REST API integration.",
+    viewGithub: "View on GitHub",
+
+    // Current Master's Thesis
+    researchProject: "Master's Thesis / Research",
     hazardName: "Hazard Sound Detection",
     inProgress: "In progress",
-    tagAudio: "Audio classification",
-    localAIName: "Local AI Application",
-    sectionContact: "Let’s connect",
+
+    // Previous Master's Thesis
+    memoryCategory: "Master's Thesis / 2018",
+    memoryName: "Secure Personal Memory Sharing",
+    memoryDesc: "Designed and evaluated a web interface prototype for the MemShare system as part of the RECALL research project. Conducted usability studies to identify user needs and opportunities for system improvements.",
+    tagUserResearch: "User Research",
+    tagPrototyping: "Prototyping",
+    tagUsability: "Usability Testing",
+    readThesis: "Read Thesis",
+    //misc
     footer: "Designed and built with HTML, CSS & JavaScript.",
-    researchProject: "MASTER’S THESIS / RESEARCH",
-    hazardLong:
-      "An ongoing thesis exploring real-time detection of environmental sounds that matter for deaf and hard-of-hearing people. The planned work includes comparing lightweight audio classifiers and considering how alerts could be delivered in everyday settings.",
-    hazardCaveat:
-      "Research and implementation are still in progress; the described features are not presented as a finished app.",
-    tagAccessibility: "Accessibility",
-    kotlinPlanned: "Kotlin (planned)",
-    learningProject: "LEARNING PROJECT",
-    prototype: "Prototype",
-    localAILong:
-      "A hands-on Python project using FastAPI and Ollama to experiment with connecting application endpoints to a locally running language model. Built to understand API design and practical AI integration.",
     emailLabel: "Email",
     githubLabel: "GitHub",
     linkedinLabel: "LinkedIn",
     themeToLight: "Switch to light mode",
     themeToDark: "Switch to dark mode",
     openMenu: "Open navigation menu",
-    closeMenu: "Close navigation menu",
-    sectionProjects: "Projects",
+    closeMenu: "Close navigation menu",  
   },
   de: {
     skip: "Zum Inhalt springen",
@@ -103,6 +110,7 @@ const translations = {
     sectionExperience: "Berufserfahrung",
     experiencePeriod: "2019 – 2021",
     amazonTitle: "Transaction Risk Investigator",
+    amazonCompany: "· Amazon, Indien",
     amazonDesc: "Untersuchte Transaktionen mit hohem Risiko zur Betrugsprävention, erkannte neue verdächtige Muster und erstellte Leistungsberichte als Grundlage für operative Entscheidungen.",
     tagRisk: "Risikobewertung",
     tagAnalysis: "Betrugsuntersuchung",
@@ -110,6 +118,7 @@ const translations = {
 
     experiencePeriodn: "2016 – 2017",
     netcommTitle: "Praktikant in der technischen Beratung",
+    netcommCompany: "· Netcomm Suisse, Schweiz",
     netcommDesc: "Erfasste bereichsübergreifend Anforderungen von Stakeholdern, prüfte die technische und wirtschaftliche Machbarkeit einer Online-Plattform und erstellte Wireframes zur Unterstützung der Auswahl einer IT-Lösung.",
     netcommTagRequirements: "Anforderungsanalyse",
     netcommTagFeasibility: "Machbarkeitsanalyse",
@@ -143,26 +152,31 @@ const translations = {
     tagPro: "Programmiergrundlagen",
     tagDB: "Datenbankmanagement",
     tagAlgo: "Datenstrukturen & Algorithmen",
-    hazardName: "Erkennung gefährlicher Geräusche",
-    inProgress: "In Arbeit",
-    tagAudio: "Audioklassifikation",
-    localAIName: "Lokale KI-Anwendung",
-    sectionContact: "Kontakt",
-    contactBody:
-      "Ich interessiere mich für Stellen, bei denen wirtschaftliches Verständnis, analytisches Denken und Technologie zusammenkommen. Ob Wirtschaftsinformatik, Software oder KI – ich freue mich über einen Austausch.",
-    setupNote: "E-Mail, LinkedIn oder GitHub in script.js ergänzen, damit hier Kontaktlinks erscheinen.",
+
+    // Projects
+    sectionProjects: "Projekte",
+
+    // Feature Miner
+    featureCategory: "Softwareentwicklung / KI",
+    featureName: "Feature Miner – Git-Commit-Analyse und Feature-Vorhersage",
+    featureDesc: "Eine Python-Webanwendung, die Git-Commits analysiert und mithilfe großer Sprachmodelle Softwarefunktionen identifiziert. Die Anwendung verfügt über einen integrierten Validierungsprozess und eine REST-API-Integration.",
+    viewGithub: "Auf GitHub ansehen",
+
+    // Current Master's Thesis
+    researchProject: "Masterarbeit / Forschung",
+    hazardName: "Erkennung von Gefahrengeräuschen",
+    inProgress: "In Bearbeitung",
+
+    // Previous Master's Thesis
+    memoryCategory: "Masterarbeit / 2018",
+    memoryName: "Sicherer Austausch persönlicher Erinnerungen",
+    memoryDesc: "Entwurf und Evaluation eines Weboberflächen-Prototyps für das MemShare-System im Rahmen des Forschungsprojekts RECALL. Durchführung von Usability-Studien zur Identifikation von Nutzeranforderungen und Verbesserungspotenzialen des Systems.",
+    tagUserResearch: "Nutzerforschung",
+    tagPrototyping: "Prototyping",
+    tagUsability: "Usability-Tests",
+    readThesis: "Masterarbeit lesen",
+
     footer: "Erstellt mit HTML, CSS und JavaScript.",
-    researchProject: "MASTERARBEIT / FORSCHUNG",
-    hazardLong:
-      "In meiner laufenden Masterarbeit untersuche ich die Echtzeiterkennung wichtiger Umgebungsgeräusche für gehörlose und schwerhörige Menschen. Geplant sind der Vergleich ressourcenschonender Audioklassifikationsmodelle und die Betrachtung geeigneter Warnmethoden für den Alltag.",
-    hazardCaveat:
-      "Forschung und Implementierung laufen noch. Die beschriebenen Funktionen sind keine bereits fertige App.",
-    tagAccessibility: "Barrierefreiheit",
-    kotlinPlanned: "Kotlin (geplant)",
-    learningProject: "LERNPROJEKT",
-    prototype: "Prototyp",
-    localAILong:
-      "Ein praktisches Python-Projekt mit FastAPI und Ollama, bei dem API-Endpunkte mit einem lokal ausgeführten Sprachmodell verbunden werden. Ziel war, API-Entwicklung und die Integration von KI besser zu verstehen.",
     emailLabel: "E-Mail",
     githubLabel: "GitHub",
     linkedinLabel: "LinkedIn",
@@ -170,7 +184,6 @@ const translations = {
     themeToDark: "Zum dunklen Modus wechseln",
     openMenu: "Navigationsmenü öffnen",
     closeMenu: "Navigationsmenü schließen",
-    sectionProjects: "Projekte",
   },
 };
 
